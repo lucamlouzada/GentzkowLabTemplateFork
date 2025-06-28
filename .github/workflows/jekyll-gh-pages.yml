@@ -9,7 +9,6 @@ on:
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -21,9 +20,7 @@ jobs:
           bundler: '2.4'
 
       - name: Install dependencies
-        run: |
-          gem install bundler -v 2.4
-          bundle install
+        run: bundle install
 
       - name: Build site with Jekyll
         run: bundle exec jekyll build
@@ -34,5 +31,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
           publish_branch: gh-pages
-          force_orphan: true
-          commit_message: "Deploy Jekyll site to GitHub Pages" 
+          force_orphan: true 
