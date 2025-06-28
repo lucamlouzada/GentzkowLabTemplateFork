@@ -30,7 +30,7 @@ We use the Git version control system, augmented with git-lfs, to organize our c
 ### Setup
 
 1. Create a GitHub account and install the Git desktop / command line clients
-2. Install Git LFS. Note that you only need to do step 1 under "Getting Started" at this point
+2. Install [Git LFS](https://git-lfs.com/). Note that you only need to do step 1 under "Getting Started" at this point
 3. Give your GitHub ID to a lab member who can give you permissions to the appropriate repositories
 
 ## Large File Storage: Dropbox and Google Drive
