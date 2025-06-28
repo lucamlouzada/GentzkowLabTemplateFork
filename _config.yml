@@ -1,0 +1,48 @@
+title: Gentzkow Lab Practice Tasks
+description: A comprehensive guide for research assistants working with the Gentzkow Lab template
+url: "https://your-username.github.io/your-repo-name"
+baseurl: ""
+
+# Theme settings
+theme: just-the-docs
+
+# Color scheme supports "light" (default) and "dark"
+color_scheme: light
+
+# Enable or disable the site search
+search_enabled: true
+
+# Heading anchor links appear on hover over h1-h6 tags
+heading_anchors: true
+
+# Footer content appears at the bottom of every page's main content
+footer_content: "Copyright &copy; 2024 Gentzkow Lab. Distributed by <a href=\"https://github.com/just-the-docs/just-the-docs\">Just the Docs</a>."
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Footer last edited timestamp
+last_edit_timestamp: true
+last_edit_time_format: "%B %-d, %Y"
+
+# Collections
+collections:
+  tasks:
+    output: true
+    permalink: /:collection/:name/
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/ 
