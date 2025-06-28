@@ -9,7 +9,7 @@ nav_order: 3
 
 ## Overview
 
-This task introduces you to the legacy Python-based template that was used before the current GentzkowLabTemplate. Understanding this template helps you appreciate how the lab's tools have evolved and gives you exposure to different approaches to research workflow management.
+This task introduces you to the legacy Python-based template that was used before the current GentzkowLabTemplate, which is based in `shell`. Even though most projects don't currently use this template, it is useful to get some experience with it.
 
 ## Learning Objectives
 
@@ -18,8 +18,6 @@ By the end of this task, you will be able to:
 - Understand the differences between the legacy and current templates
 - Work with Python-based research workflows
 - Navigate archived project structures
-- Appreciate the evolution of the lab's tools
-- Apply lessons from the legacy template to current projects
 
 ## Prerequisites
 

@@ -32,3 +32,4 @@ If you encounter issues during any task:
 1. Check the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82) for detailed procedures
 2. Review the specific task instructions carefully
 3. Reach out to your practice task assigner for guidance 
+*Note: AI tools can be very helpful for coding, debugging, and learning new concepts. The lab sponsors ChatGPT Plus subscriptions for research assistants. Don't hesitate to use AI assistance when working through these tasks - it can help you understand complex concepts, debug code issues, and learn best practices more efficiently. Stanford also provides free access to the [AI Playground](https://uit.stanford.edu/aiplayground), a platform that allows you to use various AI models from vendors like OpenAI, Google, and Anthropic in one spot.*
