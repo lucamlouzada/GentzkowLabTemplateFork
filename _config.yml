@@ -38,6 +38,12 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
+# Markdown settings
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+
 # Exclude from processing
 exclude:
   - Gemfile

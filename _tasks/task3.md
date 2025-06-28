@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Task 3 - Python-based Archived Template
-parent: Tasks
-nav_order: 4
+nav_order: 5
 ---
 
 # Task 3: Python-based Archived Template

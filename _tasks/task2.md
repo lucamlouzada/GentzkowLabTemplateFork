@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Task 2 - Sherlock Extension
-parent: Tasks
-nav_order: 3
+nav_order: 4
 ---
 
 # Task 2: Sherlock Extension

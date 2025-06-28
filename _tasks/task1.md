@@ -1,8 +1,7 @@
 ---
 layout: default
 title: Task 1 - GentzkowLabTemplate
-parent: Tasks
-nav_order: 2
+nav_order: 3
 ---
 
 # Task 1: GentzkowLabTemplate
