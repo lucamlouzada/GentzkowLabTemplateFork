@@ -19,6 +19,9 @@ jobs:
           ruby-version: '2.7'
           bundler-cache: true
 
+      - name: Update RubyGems
+        run: gem update --system
+
       - name: Install dependencies
         run: bundle install
 
