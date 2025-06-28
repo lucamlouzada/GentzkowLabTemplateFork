@@ -92,9 +92,8 @@ We recommend using Visual Studio Code as your primary code editor. It provides e
 - Extensions for various programming languages and tools
 
 **Setup:**
-1. Download and install [Visual Studio Code](https://code.visualstudio.com/)
-2. Install recommended extensions for your workflow
-3. Configure your settings for optimal productivity
+Download and install [Visual Studio Code](https://code.visualstudio.com/)
+
 
 ### Terminal and Command Line
 
@@ -113,4 +112,3 @@ We recommend using conda or virtual environments to manage Python packages and d
 **Setup:**
 1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/products/distribution)
 2. Create separate environments for different projects
-3. Use `environment.yml` files to share environment configurations
