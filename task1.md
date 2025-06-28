@@ -80,7 +80,6 @@ Follow the steps below, making sure to follow all workflow procedures (issues, b
 ## C) Practicing working on issues
 
 ### 1. Edit analysis scripts: plot
-- Open a new issue and create a branch for it as described in the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82)
 - Edit your analysis script so that the city fuel economy plot displays fuel economy in logs. 
 - Regenerate the output and confirm the change.
 - Commit your changes with a helpful message, referencing the issue.
