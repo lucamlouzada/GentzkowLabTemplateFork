@@ -2,6 +2,7 @@
 layout: default
 title: Tasks
 nav_order: 2
+has_children: true
 ---
 
 # Practice Tasks
@@ -20,7 +21,7 @@ Before starting these tasks, make sure you have:
 
 - Read the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82)
 - Reviewed the [GentzkowLabTemplate wiki](https://github.com/gentzkow/GentzkowLabTemplate/wiki)
-- Set up your computer according to the [setup instructions](https://github.com/gentzkow/lab-manual-archive/wiki/Setup)
+- Set up your computer according to the [setup instructions](setup_instr.md)
 - Installed [VSCode](https://code.visualstudio.com/)
 - Familiarized yourself with Git and GitHub concepts
 

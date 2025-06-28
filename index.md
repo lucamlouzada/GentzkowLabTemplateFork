@@ -4,36 +4,23 @@ title: Home
 nav_order: 1
 ---
 
-# Welcome to the Gentzkow Lab Practice Tasks Guide!
+# Gentzkow Lab Practice Tasks
 
-This guide provides comprehensive instructions for research assistants working with the Gentzkow Lab template. Whether you're new to the lab or looking to refresh your skills, this resource will help you navigate through the essential practice tasks.
-
-## What are Practice Tasks?
-
-Practice tasks are structured exercises designed to familiarize you with the Gentzkow Lab workflow, including:
-
-- **Repository Management**: Setting up and working with the Gentzkow Lab template
-- **Version Control**: Using Git, GitHub issues, branches, and pull requests
-- **Data Analysis**: Running scripts in various languages (R, Stata, Python)
-- **Documentation**: Compiling papers and slides with generated outputs
-- **High-Performance Computing**: Working with Sherlock cluster
+Welcome to the Gentzkow Lab practice tasks website! This site contains guides and practice tasks designed to help you learn the Gentzkow Lab workflow and tools.
 
 ## Getting Started
 
-1. **Read the Prerequisites**: Review the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82) and [GentzkowLabTemplate wiki](https://github.com/gentzkow/GentzkowLabTemplate/wiki)
-2. **Setup Your Environment**: Ensure your computer is properly configured as described in the setup instructions
-3. **Choose Your Path**: Start with Task 1 and progress through each section systematically
+If you're new to the lab, start here:
+- Read the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82) and the [GentzkowLabTemplate wiki](https://github.com/gentzkow/GentzkowLabTemplate/wiki).
+- Ensure your computer is set up as described in the [Setup Instructions](setup.md). 
+- Read through the [recommended materials](https://docs.google.com/document/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.5itb8q41m0pa) in the Lab Manual about Git and Github to familiarize yourself with the main concepts
 
-## Task Overview
 
-- **[Task 1: GentzkowLabTemplate](tasks/task1.md)** - Getting started with the template and basic workflow
-- **[Task 2: Sherlock Extension](tasks/task2.md)** - Working with high-performance computing clusters
-- **[Task 3: Python-based Archived Template](tasks/task3.md)** - Exploring the legacy Python template
+## Essential Resources
+- **[Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82)** - Complete lab procedures and guidelines
+- **[GentzkowLabTemplate Wiki](https://github.com/gentzkow/GentzkowLabTemplate/wiki)** - Template documentation
+- **[Sherlock Documentation](https://www.sherlock.stanford.edu/docs/)** - Stanford's HPC cluster guide
 
-## Need Help?
 
-If you encounter any issues or have questions about the practice tasks, please refer to the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82) or reach out to your practice task assigner.
+<small>*Note: This website's content is largely based on the archived [GSLab Manual](https://github.com/gentzkow/lab-manual-archive).*</small>
 
----
-
-*This guide is designed to help you build the skills necessary for successful research assistance in the Gentzkow Lab.* 

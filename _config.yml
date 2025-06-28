@@ -26,12 +26,6 @@ back_to_top_text: "Back to top"
 last_edit_timestamp: true
 last_edit_time_format: "%B %-d, %Y"
 
-# Collections
-collections:
-  tasks:
-    output: true
-    permalink: /:collection/:name/
-
 # Plugins
 plugins:
   - jekyll-remote-theme
@@ -52,4 +46,5 @@ exclude:
   - vendor/bundle/
   - vendor/cache/
   - vendor/gems/
-  - vendor/ruby/ 
+  - vendor/ruby/
+  - docs/ 

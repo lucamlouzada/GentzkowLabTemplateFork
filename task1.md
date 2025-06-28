@@ -1,20 +1,38 @@
 ---
 layout: default
 title: Task 1 - GentzkowLabTemplate
-nav_order: 3
+parent: Tasks
+nav_order: 1
 ---
 
 # Task 1: GentzkowLabTemplate
 
-## Checklist
+## Overview
 
-- Read the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82) and the [GentzkowLabTemplate wiki](https://github.com/gentzkow/GentzkowLabTemplate/wiki).
-- Ensure your computer is set up as described in the [setup](https://github.com/gentzkow/lab-manual-archive/wiki/Setup) instructions. Additional software you should install: [VSCode](https://code.visualstudio.com/). 
-- Read through the [recommended materials](https://docs.google.com/document/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.5itb8q41m0pa) in the Lab Manual about Git and Github to familiarize yourself with the main concepts
+This task introduces you to the Gentzkow Lab template and workflow. You'll learn how to set up a new project, understand the directory structure, and practice the basic workflow that we use for all our research projects.
+
+## Learning Objectives
+
+By the end of this task, you will be able to:
+
+- Set up a new project using the GentzkowLabTemplate
+- Understand the project directory structure
+- Navigate the basic workflow (setup → code → data → papers)
+- Use Git for version control
+- Work with the lab's coding standards
+
+## Prerequisites
+
+Before starting this task, ensure you have:
+
+- Completed the [setup instructions](setup_instr.md)
+- Installed Git and Git LFS
+- Set up your GitHub account
+- Installed VSCode
 
 ## Task Description
 
-Follow all workflow procedures (issues, branching, PRs, etc.) as described in the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82).
+Follow the steps below, making sure to follow all workflow procedures (issues, branching, PRs, etc.) as described in the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82).
 
 ---
 
@@ -92,4 +110,4 @@ Follow all workflow procedures (issues, branching, PRs, etc.) as described in th
 - Request a peer review from the practice task assigner.
 - When the PR is approved, close your issue with a summary and deliverables.
    
-**Note**: **Wait until the PR has been merged before proceeding to Task 2 below.** 
+**Note**: **Wait until the PR has been merged before proceeding to [Task 2: Sherlock Extension](task2.md).** 
