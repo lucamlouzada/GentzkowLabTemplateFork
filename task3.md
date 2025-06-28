@@ -69,5 +69,3 @@ Follow the steps below, making sure to follow all workflow procedures (issues, b
 ## Next Steps
 
 Congratulations! You've completed all three practice tasks. You now have a comprehensive understanding of the Gentzkow Lab workflow, from basic setup to high-performance computing and historical context. You're ready to contribute to active research projects in the lab.
-
-**Note**: Make sure to follow all workflow procedures (issues, branching, PRs, etc.) as described in the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82).
