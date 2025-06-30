@@ -39,7 +39,7 @@ Follow the steps below, making sure to follow all workflow procedures (issues, b
 ## A) Getting Started with the Template
 
 ### 1. Repository Setup
-- Fork the [GentzkowLabTemplate](gentzkow/GentzkowLabTemplate) repository (do _not_ click on "Use this template").
+- Fork the [GentzkowLabTemplate](https://github.com/gentzkow/GentzkowLabTemplate) repository (do _not_ click on "Use this template").
 - Invite the practice task assigner as a collaborator.
 - Clone your fork locally.
 - Run `setup.sh` and follow the instructions as prompted. 
