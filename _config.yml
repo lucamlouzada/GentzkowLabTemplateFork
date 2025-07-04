@@ -16,7 +16,7 @@ search_enabled: true
 heading_anchors: true
 
 # Footer content appears at the bottom of every page's main content
-footer_content: "Copyright &copy; 2024 Gentzkow Lab. Distributed by <a href=\"https://github.com/just-the-docs/just-the-docs\">Just the Docs</a>."
+footer_content: "Copyright &copy; 2025 Gentzkow Lab."
 
 # Back to top link
 back_to_top: true
