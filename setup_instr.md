@@ -7,7 +7,7 @@ nav_order: 1
 
 # Software Setup Guide
 
-This guide covers all the essential and recommended software you should to install and configure to work effectively in the Gentzkow Lab. We store our project repositories in GitHub, and individual repositories declare specific software requirements. Below are software that we use across many projects and recommend lab members to be familiar with.
+This guide covers all the essential and recommended software you should install and configure to work effectively in the Gentzkow Lab. We store our project repositories in GitHub, and individual repositories declare specific software requirements. Below are software that we use across many projects and recommend lab members to be familiar with. We also include helpful reference materials to get you started with these tools, though you don't need to read through everything at once.
 
 ## Version Control and Task Management: Git, GitHub, and git-lfs
 
@@ -30,7 +30,7 @@ We use the Git version control system, augmented with git-lfs, to organize our c
 ### Setup
 
 1. Create a GitHub account and install the Git desktop / command line clients
-2. Install [Git LFS](https://git-lfs.com/). Note that you only need to do step 1 under "Getting Started" at this point
+2. Install [Git LFS](https://git-lfs.com/). Note that you only need to do step 1 under "Getting Started" at this point. If using MacOS, we recommend installing with [Homebrew](https://brew.sh/).
 3. Give your GitHub ID to a lab member who can give you permissions to the appropriate repositories
 
 ## Large File Storage: Dropbox and Google Drive
@@ -78,7 +78,7 @@ We use Dropbox or Google Drive to store files that are too big for GitHub (even 
 
 ### TeX Live
 
-**Setup:** Install [TeX Live](https://www.tug.org/texlive/)
+**Setup:** Install [TeX Live](https://www.tug.org/texlive/) or [MacTeX](https://www.tug.org/mactex/) (for macOS users)
 
 ## Development Environment
 
@@ -94,10 +94,17 @@ We recommend using Visual Studio Code as your primary code editor. It provides e
 **Setup:**
 Download and install [Visual Studio Code](https://code.visualstudio.com/)
 
+**Resources:**
+- [Getting Started with VS Code](https://code.visualstudio.com/docs/getstarted/getting-started)
+- [VS Code Tutorial for Beginners](https://www.youtube.com/watch?v=ORrELERGIHs)
+- [Keyboard Shortcuts Reference](https://code.visualstudio.com/shortcuts/keyboard-shortcuts-windows.pdf)
+
 
 ### Terminal and Command Line
 
 Familiarity with the command line is essential for working with Git, running scripts, and managing your development environment.
+
+We recommend using Visual Studio Code's integrated terminal instead of your system's built-in terminal for all command line operations.
 
 **Resources:**
 - [Command Line Crash Course](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Understanding_client-side_tools/Command_line)
@@ -111,4 +118,8 @@ We recommend using conda or virtual environments to manage Python packages and d
 
 **Setup:**
 1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/products/distribution)
-2. Create separate environments for different projects
+2. Create separate environments for different projects. When working with Python, you'll create different virtual environments for each project to manage dependencies and avoid conflicts between packages. A virtual environment is an isolated software installation that contains only the packages needed for a specific project. This prevents issues where different projects require different versions of the same package. For now, you don't need to create any environments - we'll cover this in detail when you start working on Python projects.
+
+**Resources:**
+- [Python Virtual Environments: A Primer](https://realpython.com/python-virtual-environments-a-primer/)
+- [Conda Environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)

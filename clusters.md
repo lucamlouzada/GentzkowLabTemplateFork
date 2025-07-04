@@ -136,7 +136,7 @@ Provided that GitHub integration has been set up, you can make file edits on you
 
 ### 3. Visual Studio Code Remote SSH
 
-If you use Visual Studio Code, you can install and utilize the "Remote - SSH" extension provided through Microsoft. This extension will allow you to access Sherlock through Visual Studio, and make edits as you might on a local Visual Studio project. You will need to login to Sherlock following the standard process outlined above.
+If you use Visual Studio Code, you can install and utilize the "Remote - SSH" extension provided through Microsoft. This extension will allow you to access Sherlock through Visual Studio, and make edits as you might on a local Visual Studio project. You will need to login to Sherlock following the standard process outlined above. **This is the approach we recommend.**
 
 ### 4. SSHFS Mounting
 
@@ -149,7 +149,7 @@ sshfs <sunet id>@login.sherlock.stanford.edu:/oak/stanford/groups/gentzkow ~/she
 
 If you choose to utilize the fourth approach, remember to always unmount your folder when you have finished editing. You can utilize the following command to do so: `umount ~/sherlock_oak`.
 
-**Important**: If your Mac goes to sleep and you are still mounted to Sherlock, your computer will continually try to access Sherlock. This will result in your IP address being blacklisted from Sherlock. While this is reversible, we want to avoid this situation if possible.
+**Important**: If your Mac goes to sleep and you are still mounted to Sherlock (the fourth approach), your computer will continually try to access Sherlock. This will result in your IP address being blacklisted from Sherlock. While this is reversible, we want to avoid this situation if possible.
 
 ## Sample Batch Script for Testing and Job Submission
 

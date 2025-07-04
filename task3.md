@@ -36,9 +36,9 @@ Follow the steps below, making sure to follow all workflow procedures (issues, b
 
 ## A) Repository Setup
 
-### 1. Fork and Clone Archived Template
-- Create your own public repository from the [archived template](https://github.com/gentzkow/template_archive) and invite the practice task assigner as a collaborator.
-- Make sure you [fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repository, do not click "Use this template".
+### 1. Create Repository from Archived Template
+- Create your own public repository using the [archived template](https://github.com/gentzkow/template_archive) as a template by clicking "Use this template" and invite the practice task assigner as a collaborator.
+
 
 ### 2. Test Repository Functionality
 - Run the repository from beginning to end to replicate the output.

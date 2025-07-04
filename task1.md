@@ -39,9 +39,9 @@ Follow the steps below, making sure to follow all workflow procedures (issues, b
 ## A) Getting Started with the Template
 
 ### 1. Repository Setup
-- Fork the [GentzkowLabTemplate](https://github.com/gentzkow/GentzkowLabTemplate) repository (do _not_ click on "Use this template").
+- Create your own repository using the [GentzkowLabTemplate](https://github.com/gentzkow/GentzkowLabTemplate) repository as a template by clicking "Use this template".
 - Invite the practice task assigner as a collaborator.
-- Clone your fork locally.
+- Clone your repository locally.
 - Run `setup.sh` and follow the instructions as prompted. 
 
 ### 2. Test run
@@ -53,20 +53,16 @@ Follow the steps below, making sure to follow all workflow procedures (issues, b
 
 ### 1. Open an Issue: Update paper and slides with example analysis
 - Open a new issue and create a branch for it as described in the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82)
-- The steps below should be performed in this issue branch.
+- Switch to (checkout) the new issue branch you created
+- The steps below should be performed in this issue branch. 
 
 ### 2. Move and Run an Example Script
 - Choose one language (R, Stata, or Python) from `examples/`.
-- Follow the instructions in the README file within the chosen `examples/` folder to run the modules `1_data` and `2_analysis`. As explained in the README files, the steps are:
-  - Copy the relevant example script(s) (e.g., from `examples/stata/analyze_data.do`, `examples/r/analyze_data.R`, or `examples/python/analyze_data.py`) into the appropriate module's `source/` directory (e.g., `2_analysis/source/`).
-  - Copy any required input files (e.g., `mpg.csv` from `examples/inputs_for_examples/`) into the correct location (e.g., `0_raw/`).
-  - Delete the placeholder `my_shell_script.sh` from all `source/` directories.
-  - Update the relevant `make.sh` to call your chosen script using the appropriate helper (e.g., `run_stata`, `run_R`, or `run_python`).
-  - Run the module (e.g., `bash 2_analysis/make.sh`) and confirm that the expected outputs (figures, tables) are generated in the `output/` directory.
+- Follow the instructions in the README file within the chosen `examples/` folder to run the modules `1_data` and `2_analysis`. 
 
 ### 3. Compile paper with generated output
 - Follow the instructions in the README file in `examples/latex` to compile the paper using the figures and table you generated in the previous step.
-- Run the module `4_paper` and confirm that the expected outputs (figures, tables) are generated in the `output/` directory.
+- Run the module `4_paper` and confirm that the expected output is generated in the `output/` directory.
 
 ### 4. Run the entire repository to make sure all modules run
 - Run the entire repository with `run_all.sh` to make sure it runs correctly.

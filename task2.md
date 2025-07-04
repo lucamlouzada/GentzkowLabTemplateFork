@@ -9,7 +9,7 @@ nav_order: 2
 
 ## Overview
 
-This task builds upon Task 1 by introducing you to high-performance computing clusters, specifically Stanford's Sherlock cluster. You'll learn how to submit jobs, manage computational resources, and work with large datasets that require more computing power than your local machine.
+This task builds upon Task 1 by introducing you to Stanford's high performing computing cluster: Sherlock. You'll learn how to submit jobs, manage computational resources, and work with large datasets that require more computing power than your local machine.
 
 ## Learning Objectives
 
@@ -90,5 +90,3 @@ Follow the steps below, making sure to follow all workflow procedures (issues, b
 ### 1. Open Pull Request
 - Open a PR as before, following the same workflow procedures used in Task 1.
 - Ensure all changes are properly documented and the repository runs correctly on Sherlock.
-
-**Note**: Make sure to follow all workflow procedures (issues, branching, PRs, etc.) as described in the [Lab Manual](https://docs.google.com/document/u/1/d/15urblzRR2XaymiXhvlEVfCJCwuMQQ3KaF-l4ol68dnA/edit?tab=t.0#heading=h.9zo0bcd06n82).
